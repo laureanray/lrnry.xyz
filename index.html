@@ -4,17 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lr</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin: 0;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .content {
+            display: flex;
+            flex-flow: column wrap;
+        }
+
+        a {
+            text-decoration: none;
+            color: #888;
+        }
+
+        h1, h2, p {
+            padding: 0;
+            margin: 0;
+            font-weight: normal;
+        }
+
+        
+        p.about, h2 {
+            margin-top: 20px;
+        }
+
+        .links {
+            margin-top: 50px;
+        }
+
+        p.small{
+            color: #888;
+            font-size: 12px;
+        }
+    </style>
 </head>
-<body style="width: 75%; margin: 100px auto">
-    <br<br>
-    <h3> hello. </h3>
-    <p> my name is Laurean Ray and this is how a webpage should look like</p>
-    <p> nah, i'm just kidding. i'm still working on this. </p>
-    <br><br>
-    <a href="https://youtube.com/laureanray"> yt </a>
-    <br>
-    <a href="https://instagram.com/laureanray"> ig </a>
-    <br>
-    <a href="https://github.com/laureanray"> gh</a>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1> Hello! </h1>
+            <h2> My name is Laurean Ray. </h3>
+            <p class="about"> I am a software developer. I like open source software, linux, web and anything in between. </p>
+            <p class="about"> Outside of programming, I make music, play guitar, watch my tv shows and read books. </p>
+            <div class="links">
+                <a href="https://youtube.com/laureanray"> youtube &middot;</a>
+                <a href="https://instagram.com/laureanray"> instagram &middot; </a>
+                <a href="https://github.com/laureanray"> github &middot;</a>
+                <a href="https://linkedin.com/in/laureanray"> linkedin</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
