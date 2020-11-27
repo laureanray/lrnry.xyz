@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lr</title>
-    <style>
+    <title>Laurean Ray</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">     <style>
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-family: 'Inter', sans-serif;            /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
             margin: 0;
+            color: #202020;
         }
 
         .container {
-            width: 90%;
+            width: 80%;
             margin: auto;
             display: flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
+            padding-top: 12%;
         }
 
         .content {
@@ -35,28 +36,53 @@
             font-weight: normal;
         }
 
+        p {
+            max-width: 28em;
+            padding: 5px 0;
+            font-size: 1.2em;
+        }
+
+        h1 {
+            font-size: 50px;
+            font-weight: bold;;
+        }
+
+        h2 {
+            font-size: 38px;
+        }
+
+        .name, .lnk {
+            border-bottom: 4px solid #DCB9B7;
+            color: #202020;
+        }
+
+        .lnk {
+            cursor: pointer;
+        }
         
         p.about, h2 {
             margin-top: 20px;
         }
 
         .links {
-            margin-top: 50px;
+            margin-top: 20px;
         }
 
         p.small{
             color: #888;
-            font-size: 12px;
+            font-size: 0.8em;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="content">
-            <h1> Hello! </h1>
-            <h2> My name is Laurean Ray. </h3>
-            <p class="about"> I am a software developer. I like open source software, linux, web and anything in between. </p>
-            <p class="about"> Outside of programming, I make music, play guitar, watch my favorite tv shows and read books. </p>
+            <h1> Hi. </h1>
+            <h2> My name is <span class="name">Laurean Ray</span>. </h3>
+            <p class="small">but friends usually call me LR. </p>
+                <p class="about"> I am a software developer. I like open source software, everything linux, web and anything in between. </p>
+            <p> Checkout my <a href="https://github.com/laureanray" class="lnk">github</a> for personal projects that may interest you.</p>
+            <p> Outside of programming I make music, play guitar, watch my favorite tv shows and read books. </p>
             <div class="links">
                 <a href="https://youtube.com/laureanray"> youtube &middot;</a>
                 <a href="https://instagram.com/laureanray"> instagram &middot; </a>
